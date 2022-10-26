@@ -1,6 +1,7 @@
-from typing import Dict
-from fastapi import APIRouter
 import logging
+from typing import Dict
+
+from fastapi import APIRouter
 
 from app.api.v1.schemas.meta import Meta
 

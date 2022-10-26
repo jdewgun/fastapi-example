@@ -1,6 +1,7 @@
-from fastapi import APIRouter
-from typing import Dict
 import logging
+from typing import Dict
+
+from fastapi import APIRouter
 
 logger = logging.getLogger(name="__main__")
 router = APIRouter()
