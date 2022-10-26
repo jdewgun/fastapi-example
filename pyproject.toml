@@ -8,12 +8,15 @@ packages = [{include = "fastapi_example"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-fastapi = "^0.85.0"
+fastapi = {extras = ["email"], version = "^0.85.1"}
 uvicorn = "^0.18.3"
 fastapi-pagination = "^0.10.0"
 requests = "^2.28.1"
 pytest-cov = "^4.0.0"
 databases = {extras = ["aiosqlite"], version = "^0.6.1"}
+pydantic = {extras = ["email"], version = "^1.10.2"}
+SQLAlchemy = "^1.4.42"
+isort = "^5.10.1"
 
 
 [tool.poetry.group.dev.dependencies]
