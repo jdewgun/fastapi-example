@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi_pagination import add_pagination
-from api.router import api_router
+from app.api.router import api_router
 from typing import Dict
 import logging
 

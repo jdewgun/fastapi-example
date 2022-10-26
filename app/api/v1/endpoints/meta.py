@@ -2,7 +2,7 @@ from typing import Dict
 from fastapi import APIRouter
 import logging
 
-from api.v1.schemas.meta import Meta
+from app.api.v1.schemas.meta import Meta
 
 logger = logging.getLogger(name="__main__")
 router = APIRouter()
